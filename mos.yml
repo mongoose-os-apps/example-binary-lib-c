@@ -14,8 +14,9 @@ tags:
 sources:
   - src
 
-# List of libraries used by this app, in order of initialisation
+# List of libraries used by this app.
 libs:
+  - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/ca-bundle
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
